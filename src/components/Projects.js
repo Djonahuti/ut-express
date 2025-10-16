@@ -92,7 +92,7 @@ function Projects() {
                     className={`mx-3 ${filterKey === "*" ? "active" : ""}`}
                     onClick={() => handleFilterClick("*")}
                   >
-                    All Projects
+                    All
                   </li>
                   <li
                     className={`mx-3 ${filterKey === "php" ? "active" : ""}`}
