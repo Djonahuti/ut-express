@@ -104,7 +104,7 @@ function Projects() {
                     className={`mx-3 ${filterKey === "reactjs" ? "active" : ""}`}
                     onClick={() => handleFilterClick("reactjs")}
                   >
-                    React JS
+                    React JS + TypeScript
                   </li>
                   <li
                     className={`mx-3 ${filterKey === "reactts" ? "active" : ""}`}
